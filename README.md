@@ -19,3 +19,11 @@ This module provides a number of useful grid field components:
 * `GridFieldTitleHeader` - a simple header which displays column titles.
 
 See [docs/en/index.md](docs/en/index.md) for documentation and examples.
+
+### Notice
+ * After each Update, set the new Tag
+```
+git tag -a v1.2.3.4 -m 'Version 1.2.3.4'
+git push -u origin v1.2.3.4
+```
+ * Also update the requirements in andrelohmann/silverstripe-apptemplate
