@@ -20,10 +20,15 @@ This module provides a number of useful grid field components:
 
 See [docs/en/index.md](docs/en/index.md) for documentation and examples.
 
+## Requirements
+
+Silverstripe 3.2.x
+
 ### Notice
- * After each Update, set the new Tag
+This repository uses the git flow paradigm.
+After each release cycle, do not forget to push tags, master and develop to the remote origin
 ```
-git tag -a v1.2.3.4 -m 'Version 1.2.3.4'
-git push -u origin v1.2.3.4
+git push --tags
+git push origin develop
+git push origin master
 ```
- * Also update the requirements in andrelohmann/silverstripe-apptemplate
