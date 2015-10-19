@@ -56,7 +56,7 @@ class GridFieldOrderableRows extends RequestHandler implements
 	 * @param DataList $list
 	 * @return string
 	 */
-	public function getSortTable(DataList $list) {
+	public function getSortTable(SS_List $list) {
 		$field = $this->getSortField();
 
 		if($list instanceof ManyManyList) {
