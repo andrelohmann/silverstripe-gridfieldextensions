@@ -22,7 +22,7 @@ See [docs/en/index.md](docs/en/index.md) for documentation and examples.
 
 ## Requirements
 
-Silverstripe 3.2.x
+Silverstripe 3.7.x
 
 ### Notice
 This repository uses the git flow paradigm.
